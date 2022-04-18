@@ -4,10 +4,6 @@ import React from "react";
 import Image from "next/image";
 import imageLoader from "../../pages/ImageLoader";
 import BasicModal from "../modalpops/modalPopup";
-import BasicModal2 from "../modalpops/modalpop2";
-import Link from "next/link";
-
-
 
 function NavBar() {
   return (
@@ -36,23 +32,10 @@ function NavBar() {
           />
         </Typography>
 
-
         <Grid sx={{ display: "flex" }}>
-
-          <Typography>
-           
-             {/* <BasicModal2/> */}
-         
-          </Typography>
-
           <BasicModal />
         </Grid>
-
-
       </Grid>
-
-
-
     </Grid>
   );
 }
